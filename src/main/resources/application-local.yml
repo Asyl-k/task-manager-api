@@ -1,0 +1,6 @@
+# Local development only. Never reuse this secret outside a developer machine.
+app:
+  jwt:
+    secret: ${JWT_SECRET:dGVzdC1zZWNyZXQta2V5LWZvci10YXNrLW1hbmFnZXItYXBpLTIxIQ==}
+  demo-data:
+    enabled: ${DEMO_DATA_ENABLED:true}
